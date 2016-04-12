@@ -2,7 +2,7 @@
 zstyle :compinstall filename '/home/alex/.zshrc'
 
 # need for correct gruvbox scheme in vim
-source "$HOME/.vim/bundle/gruvbox/gruvbox_256palette.sh"
+source "$HOME/.vim/plugged/gruvbox/gruvbox_256palette.sh"
 
 autoload -Uz compinit
 compinit
@@ -27,6 +27,7 @@ bindkey -M viins 'jj' vi-cmd-mode
 bindkey '^J' down-line-or-history
 bindkey '^K' up-line-or-history
 
+export TERM=xterm-256color
 export KEYTIMEOUT=20
 export MODE_INDICATOR="%{$fg_bold[red]%}%{$fg[red]%}%{$reset_color%}"
 

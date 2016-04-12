@@ -42,7 +42,9 @@ call plug#end()
 
 
 let mapleader=","
-
+let &t_Co=256
+colorscheme darkblue
+colorscheme gruvbox
 syntax on
 
 set ignorecase
