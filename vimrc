@@ -72,7 +72,6 @@ set listchars+=extends:»              " show cut off when nowrap
 set listchars+=precedes:«
 set listchars+=nbsp:⣿
 set listchars+=eol:¬
-set listchars+=space:·
 
 set wildignore+=*/node_modules/**
 set wildignore+=*/target/**
@@ -86,8 +85,6 @@ set wildignore+=*.eot,*.otf,*.ttf,*.woff
 set wildignore+=*.doc,*.pdf
 set wildignore+=*.zip,*.tar.gz,*.tar.bz2,*.rar,*.tar.xz
 set wildignore+=*.swp,.lock,.DS_Store,._*
-
-autocmd VimEnter * call after_object#enable('=', ':')
 
 " delimate
 let delimitMate_expand_cr = 1
