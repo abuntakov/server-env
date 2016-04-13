@@ -13,6 +13,7 @@ HISTSIZE=3000
 SAVEHIST=3000
 bindkey -v
 bindkey -M viins 'jj' vi-cmd-mode
+bindkey -s "^[OM" "^M" # fixed numpad enter
 
 # setup key accordingly
 [[ -n "${key[Home]}"    ]]  && bindkey  "${key[Home]}"    beginning-of-line
