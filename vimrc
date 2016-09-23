@@ -210,7 +210,7 @@ nmap	<silent> <F3>	:Autoformat<CR>
 imap	<silent> <F3>	<Esc>:Autoformat<CR>
 
 nmap <C-\> :NERDTreeFind<CR>
-nmap <silent> `` :NERDTreeToggle<CR>
+nmap <silent> <Bslash><Bslash> :NERDTreeToggle<CR>
 
 cmap w!! %!sudo tee > /dev/null %"
 

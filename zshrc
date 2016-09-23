@@ -1,5 +1,5 @@
 # The following lines were added by compinstall
-zstyle :compinstall filename '/home/alex/.zshrc'
+zstyle :compinstall filename "$HOME/.zshrc"
 
 # need for correct gruvbox scheme in vim
 source "$HOME/.vim/plugged/gruvbox/gruvbox_256palette.sh"
@@ -33,7 +33,7 @@ export KEYTIMEOUT=20
 export MODE_INDICATOR="%{$fg_bold[red]%}%{$fg[red]%}%{$reset_color%}"
 
 export ZSH=$HOME/.oh-my-zsh
-ZSH_THEME="robbyrussell"
+ZSH_THEME="amuse"
 plugins=(git dirhistory docker history sbt scala sudo wd ssh-agent vi-mode)
 source $ZSH/oh-my-zsh.sh
 
