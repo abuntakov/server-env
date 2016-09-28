@@ -37,6 +37,11 @@ ZSH_THEME="amuse"
 plugins=(git dirhistory docker history sbt scala sudo wd ssh-agent vi-mode)
 source $ZSH/oh-my-zsh.sh
 
+THEIP=$(ip addr show enp0s3 | grep "inet\b" | awk '{print $2}' | cut -d/ -f1)
+PROMPT='
+%{$fg_bold[green]%}${PWD/#$HOME/~}%{$reset_color%}$(git_prompt_info) ⌚ %{$fg_bold[red]%}%*%{$reset_color%} ['$THEIP']
+$ '
+
 # rehash after install new application
 zstyle ':completion:*' rehash true
 
