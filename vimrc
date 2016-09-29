@@ -88,6 +88,8 @@ set wildignore+=*.doc,*.pdf
 set wildignore+=*.zip,*.tar.gz,*.tar.bz2,*.rar,*.tar.xz
 set wildignore+=*.swp,.lock,.DS_Store,._*
 
+let g:EasyMotion_smartcase = 1
+
 " delimate
 let delimitMate_expand_cr = 1
 let delimitMate_expand_space = 1
