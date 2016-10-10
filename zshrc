@@ -57,6 +57,10 @@ alias sv='sudo vim'
 alias gs='git status'
 alias gc='git commit -am'
 
+alias kc='kubectl'
+alias kd='kubectl describe'
+alias kg='kubectl get'
+
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 export FZF_DEFAULT_COMMAND='ag -g ""'
