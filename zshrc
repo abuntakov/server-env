@@ -58,8 +58,12 @@ alias gs='git status'
 alias gc='git commit -am'
 
 alias kc='kubectl'
+alias kl='kubectl logs'
+alias kls='kubectl logs' --namespace kube-system
 alias kd='kubectl describe'
+alias kds='kubectl describe --namespace kube-system'
 alias kg='kubectl get'
+alias kgs='kubectl get --namespace kube-system'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
