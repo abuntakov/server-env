@@ -50,6 +50,8 @@ stty -ixon
 # colored dirs
 eval $(dircolors ~/.dircolors)
 
+source <(kubectl completion zsh)
+
 # key bindings
 alias ls='ls --color=auto'
 alias ll='ls -l'
