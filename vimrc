@@ -33,6 +33,7 @@ Plug 'jelera/vim-javascript-syntax'
 Plug 'pangloss/vim-javascript'
 Plug 'othree/javascript-libraries-syntax.vim'
 Plug 'othree/yajs.vim'
+Plug 'chr4/nginx.vim'
 Plug 'gre/play2vim'
 
 " programming
